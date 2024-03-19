@@ -1,0 +1,161 @@
+Script started on 2024-03-18 22:32:33-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="99" LINES="24"]
+[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ gcc -o A4Q1 A4Q1.c -g
+[?2004l[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ gcc -o A4Q1 A4Q1.c -gexit[Kgccexit[3Pexitcleard /home/desktop/lear[K[1Pexitgccexit[3Pexitgcc -o A4Q1 A4Q1.c -g[KA4[K[K./A4Q1
+[?2004l2nd child created. PID=8140
+    I will be waited for by my parent...
+
+Parent waited for pid=8140 successfully
+   Exit status: 0
+
+1st child, PID=8139, PPID=8104 orphaned![?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ 1st child created. PID=8139
+   Becoming orphan
+
+1st child, PID=8139, PPID=1356 orphaned!
+
+[?2004l[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ CLEAR
+[?2004lCLEAR: command not found
+[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ clearCLEAR./A4Q1
+[?2004l2nd child created. PID=8157
+    I will be waited for by my parent...
+
+Parent waited for pid=8157 successfully
+   Exit status: 0
+
+1st child, PID=8156, PPID=8104 orphaned![?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ 1st child created. PID=8156
+   Becoming orphan
+
+1st child, PID=8156, PPID=1356 orphaned!
+
+[?2004l[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ ./A4Q1
+[?2004l2nd child created. PID=8160
+    I will be waited for by my parent...
+
+Parent waited for pid=8160 successfully
+   Exit status: 0
+
+1st child, PID=8159, PPID=8104 orphaned![?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ 1st child created. PID=8159
+   Becoming orphan
+
+./A4Q11st child, PID=8159, PPID=1356 orphaned!
+[1Pclear[K[K[K[K[K
+[?2004l[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ ./A4Q1[1Pclear./A4Q1
+[?2004l2nd child created. PID=8164
+    I will be waited for by my parent...
+
+Parent waited for pid=8164 successfully
+   Exit status: 0
+
+1st child, PID=8163, PPID=8104 orphaned![?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ 1st child created. PID=8163
+   Becoming orphan
+
+1st child, PID=8163, PPID=1356 orphaned!
+
+[?2004l[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ ./A4Q1[1PclearCLEAR./A4Q1gcc -o A4Q1 A4Q1.c -g
+[?2004l[01m[KA4Q1.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[KA4Q1.c:21:16:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Katexit[m[K’ from incompatible pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wincompatible-pointer-types-Wincompatible-pointer-types]8;;[m[K]
+   21 |         atexit([01;35m[KprintOrphanInfo[m[K); // Register function to print orphan info
+      |                [01;35m[K^~~~~~~~~~~~~~~[m[K
+      |                [01;35m[K|[m[K
+      |                [01;35m[Kvoid (*)(pid_t) {aka void (*)(int)}[m[K
+In file included from [01m[KA4Q1.c:2[m[K:
+[01m[K/usr/include/stdlib.h:602:27:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kvoid (*)(void)[m[K’ but argument is of type ‘[01m[Kvoid (*)(pid_t)[m[K’ {aka ‘[01m[Kvoid (*)(int)[m[K’}
+  602 | extern int atexit ([01;36m[Kvoid (*__func) (void)[m[K) __THROW __nonnull ((1));
+      |                    [01;36m[K~~~~~~~^~~~~~~~~~~~~~[m[K
+[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ gcc -o A4Q1 A4Q1.c -g
+[?2004l[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ gcc -o A4Q1 A4Q1.c -g./A4Q1[K
+[?2004l2nd child created. PID=9374
+    I will be waited for by my parent...
+Parent waited for pid=9374 successfully
+   exit status: 0
+[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ 1st child created. PID=9373
+   becoming orphan
+1st child, PID=9373, PPID=1356 orphaned!
+
+[?2004l[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ ./A4Q1
+[?2004l1st child created. PID=9379
+   becoming orphan
+2nd child created. PID=9380
+    I will be waited for by my parent...
+Parent waited for pid=9380 successfully
+   exit status: 0
+[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ 1st child, PID=9379, PPID=1356 orphaned!
+
+[?2004l[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ clear./A4Q1gcc -o A4Q1 A4Q1.c -g
+[?2004l[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ gcc -o A4Q1 A4Q1.c -gclear[K./A4Q1
+[?2004l1st child created. PID=9487
+   becoming orphan
+2nd child created. PID=9488
+    I will be waited for by my parent...
+Parent waited for pid=9488 successfully
+   exit status: 0
+[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ 1st child, PID=9487, PPID=1356 orphaned!
+clear
+[?2004l[H[2J[3J[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ clear./A4Q1gcc -o A4Q1 A4Q1.c -g[1P[1@2[1P[1@2[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ gcc -o A4Q2 A4Q2.c -gclear[K./A4Q1[K2
+[?2004lExec failed: No such file or directory
+Ctrl+C handler in parent: 0x57c2e0fb8289
+Sending Ctrl+Z signal to parent...
+Ctrl+Z signal sent.
+[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ clear./A4Q2gcc -o A4Q2 A4Q2.c -g[1P[1@3[1P[1@3[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ gcc -o A4Q3 A4Q3.c -gclear[K./A4Q2[K3
+[?2004l[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ ./A4Q3 5
+[?2004lalarm application running
+waiting for alarm to go off
+Ding!
+[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ ./A4Q3 5
+[?2004lalarm application running
+waiting for alarm to go off
+Ding!
+[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ ./A4Q3 5[Kgcc -o A4Q3 A4Q3.c -g
+[?2004l[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ gcc -o A4Q3 A4Q3.c -g[13P./A4Q3 5
+[?2004lalarm application running
+waiting for alarm to go off
+Ding!
+[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ ./A4Q3 5gcc -o A4Q3 A4Q3.c -g
+[?2004l[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ gcc -o A4Q3 A4Q3.c -g[13P./A4Q3 5
+[?2004lalarm application running
+waiting for alarm to go off
+Ding!
+Done
+[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ l[Kclear
+[?2004l[H[2J[3J[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ clear./A4Q3 5gcc -o A4Q3 A4Q3.c -g
+[?2004l[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ gcc -o A4Q3 A4Q3.c -gclear[K./A4Q3 5
+[?2004lalarm application running
+waiting for alarm to go off
+Ding!
+Done!
+[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ clear./A4Q3 5gcc -o A4Q3 A4Q3.c -g[1P[1@4[1P[1@4[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ gcc -o A4Q4 A4Q4.c -gclear[K./A4Q3 5[K[K[K4
+[?2004lGive me a signal
+Give me a signal
+Give me a signal
+Give me a signal
+Give me a signal
+Give me a signal
+^CReceived signal 2
+Give me a signal
+Give me a signal
+Give me a signal
+Give me a signal
+Give me a signal
+Give me a signal
+^CReceived signal 2
+Give me a signal
+Give me a signal
+Give me a signal
+Give me a signal
+Give me a signal
+Give me a signal
+^Z
+[1]+  Stopped                 ./A4Q4
+[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ exit
+[?2004lexit
+There are stopped jobs.
+[?2004h]0;thierry@ubuntu: ~/Desktop[01;32mthierry@ubuntu[00m:[01;34m~/Desktop[00m$ exit
+[?2004lexit
+
+Script done on 2024-03-18 23:38:57-04:00 [COMMAND_EXIT_CODE="1"]
